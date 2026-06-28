@@ -276,8 +276,6 @@ Three easy ways to get a certificate, best first:
 When TLS is on, use `https://` in every client URL. The `MCP_BRIDGE_ALLOW_IPS`
 and token gates apply exactly the same over HTTPS.
 
-See [`SECURITY.md`](SECURITY.md) for the full policy and how to report issues.
-
 ## macOS permissions
 
 - Shell and file tools need **no special permission**.
