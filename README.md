@@ -13,8 +13,8 @@ test, and automate on macOS, even when your AI is running on Windows or Linux.
 
 ```
    your machine (Windows / Linux / Mac)            the Mac you want to control
- ┌────────────────────────────────────┐          ┌────────────────────────────┐
- │  AI client (MCP host)              │  HTTP +   │      mac-bridge-mcp         │
+ ┌────────────────────────────────────┐           ┌────────────────────────────┐
+ │  AI client (MCP host)              │  HTTP +   │      mac-bridge-mcp        │
  │  e.g. Claude Desktop, an agent     │ ───────►  │  ┌──────────────────────┐  │
  │                                    │  bearer   │  │ IP allowlist → token │  │
  │  "build & test my binary on macOS" │  token    │  └──────────┬───────────┘  │
