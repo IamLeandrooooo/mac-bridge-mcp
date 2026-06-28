@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mac-bridge": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://MAC_IP_OR_HOST:8765/mcp",
+        "--header",
+        "Authorization: Bearer YOUR_TOKEN_HERE"
+      ]
+    }
+  }
+}
